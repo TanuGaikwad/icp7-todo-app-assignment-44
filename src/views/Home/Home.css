@@ -1,0 +1,53 @@
+.app-title{
+    text-align: center;
+}
+
+.todo-list-container{
+    background-color: aliceblue;
+    height:300px;
+    width:400px;
+    margin: 5px auto;
+    border-radius: 15px;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.add-input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-right:20px;
+  
+ }
+ .category-select{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px ;
+
+ }
+
+ .add-icon{
+    height:40px;
+    cursor: pointer;
+   
+    
+}
+
+ .add-icon:hover{
+    transform: rotate(90deg);
+    transition:1s;
+   
+   
+ }
+ .add-todo-item-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ 
+  
+ }
+
